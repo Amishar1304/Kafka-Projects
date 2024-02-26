@@ -1,0 +1,32 @@
+package com.yahoo.springconsumer.consumer;
+
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.yahoo.springconsumer.entity.Child;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.kafka.annotation.KafkaListener;
+import org.springframework.stereotype.Service;
+
+@Service
+public class ChildConsumer {
+
+    private final ObjectMapper objectMapper;
+
+    @Autowired
+    public ChildConsumer(ObjectMapper objectMapper) {
+        this.objectMapper = objectMapper;
+    }
+
+    @KafkaListener(topics = "Kafka_Topics", groupId = "myGroup")
+    public void read(String childJson) {
+        try {
+          
+            Child child = objectMapper.readValue(childJson, Child.class);
+            // Process the Child object as needed
+            System.out.println("Received message from Kafka: " + child);
+        } catch (Exception e) {
+            System.err.println("Error deserializing JSON: " + e.getMessage());
+            
+        }
+    }
+}

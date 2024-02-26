@@ -1,0 +1,5 @@
+package com.yahoo.springconsumer.entity;
+
+public class Child {
+
+}

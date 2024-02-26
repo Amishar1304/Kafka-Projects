@@ -1,0 +1,5 @@
+package com.SpringKafka.springbootKafka.consumer;
+
+public class KafkaConsumer {
+
+}

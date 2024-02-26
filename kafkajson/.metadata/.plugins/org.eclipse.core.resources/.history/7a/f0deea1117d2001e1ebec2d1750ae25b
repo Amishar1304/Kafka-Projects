@@ -1,0 +1,9 @@
+package com.error.kafkajson.config;
+
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class KafkaJsonConfig {
+	
+
+}

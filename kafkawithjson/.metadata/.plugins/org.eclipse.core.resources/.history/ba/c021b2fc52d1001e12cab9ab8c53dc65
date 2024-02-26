@@ -1,0 +1,5 @@
+package com.KafkaJson.kafkawithjson.config;
+
+public class KafkaJsonTopicConfig {
+
+}

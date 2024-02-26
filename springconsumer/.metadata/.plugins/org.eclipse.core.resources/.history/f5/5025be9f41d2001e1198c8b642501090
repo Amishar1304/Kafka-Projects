@@ -1,0 +1,9 @@
+package com.yahoo.springconsumer.controller;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class MsgController {
+	
+
+}

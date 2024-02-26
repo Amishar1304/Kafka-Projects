@@ -1,0 +1,5 @@
+package com.yahoo.springconsumer.producer;
+
+public class ChildProducer {
+
+}

@@ -1,0 +1,5 @@
+package com.error.kafkajson.model;
+
+public class Employee {
+
+}

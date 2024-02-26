@@ -1,0 +1,5 @@
+package com.yahoo.springconsumer.config;
+
+public class Myconfig {
+
+}

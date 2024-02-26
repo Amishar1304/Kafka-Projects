@@ -1,0 +1,5 @@
+package com.yahoo.kafkaspring.consumer;
+
+public class YouConsumer {
+
+}

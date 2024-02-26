@@ -1,0 +1,5 @@
+package com.error.kafkajson.consumer;
+
+public class ReadConsumer {
+
+}

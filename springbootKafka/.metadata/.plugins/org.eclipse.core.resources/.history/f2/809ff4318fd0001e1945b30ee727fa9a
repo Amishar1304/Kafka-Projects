@@ -1,0 +1,5 @@
+package com.SpringKafka.springbootKafka.config;
+
+public class KafkaTopicConfig {
+
+}

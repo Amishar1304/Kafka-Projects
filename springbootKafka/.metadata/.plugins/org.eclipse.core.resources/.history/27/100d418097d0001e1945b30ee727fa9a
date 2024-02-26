@@ -1,0 +1,5 @@
+package com.SpringKafka.springbootKafka.producer;
+
+public class KafkaProducer {
+
+}

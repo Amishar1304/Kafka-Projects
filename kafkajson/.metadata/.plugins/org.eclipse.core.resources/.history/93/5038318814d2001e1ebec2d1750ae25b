@@ -1,0 +1,5 @@
+package com.error.kafkajson.config;
+
+public class KafkaJsonConfig {
+
+}

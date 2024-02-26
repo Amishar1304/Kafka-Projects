@@ -1,0 +1,5 @@
+package com.yahoo.kafkaspring.config;
+
+public class MyConfig {
+
+}
